@@ -1,0 +1,10 @@
+html, body {
+    height: 100%; /* Pastikan elemen induk memiliki tinggi 100% */
+    margin: 0;
+}
+
+.centered-div {
+    display: grid;
+    place-items: center; /* Center horizontally and vertically */
+    height: 100svh;
+}
